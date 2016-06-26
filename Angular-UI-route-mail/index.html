@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app='myApp'>
+<head>
+	<meta charset="UTF-8">
+	<title>QQMail</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+
+	<header>
+		<a ui-sref='home'><img src="images/log.png"></a>
+		<div class="head">
+			<div class="tt">
+				唐小白<a href=""><670306522@qq.com><span></span></a>
+			</div>
+			<ul>
+				<li><a  ui-sref='home'>邮箱首页</a></li>
+				<li>|</li>
+				<li><a href="">设置</a></li>
+				<li>-</li>
+				<li><a href="">换肤</a></li>
+			</ul>
+		</div>
+		<!-- <h1>
+			<a href="">邮箱首页</a>
+		</h1> -->
+		<div class="head-right">
+			<ul>
+				<li><a href=""><span></span></a></li>
+				<li>|</li>
+				<li><a href="">反馈建议</a></li>
+				<li>|</li>
+				<li><a href="">帮助中心</a></li>
+				<li>|</li>
+				<li><a href="">退出</a></li>
+			</ul>
+			<div></div>
+			<input type"text" placeholder="邮件搜索..."></input>
+		</div>
+	</header>
+
+	<div class="wrap">
+		<div class="content-l">
+			<div class="menu-topone"></div>
+			<div class="menu-top">
+				<ul class="menu">
+					<li><a ui-sref='xx'><span class="span1"></span>写信</a></li>
+					<li><a ui-sref='sx'><span class="span2"></span>收信</a></li>
+					<li><a ui-sref='txl'><span class="span3"></span>通讯录</a></li>
+				</ul>
+			</div>
+			<div class="menu-bottom">
+				<div class="cgx">
+					<ul>
+						<li><a href="">收件箱(17)</a></li>
+						<li><a href="">星标邮件</a></li>
+						<li><a href="">群邮件</a></li>
+						<li><a href="">草稿箱(1)</a></li>
+						<li><a href="">已发送</a></li>
+						<li><a href="">已删除</a></li>
+						<li><a href="">垃圾箱(13)&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp[清空]</a></li>
+						<li><a href="">QQ邮件订阅</a></li>
+						<li id="qita"><a href="">其他邮箱</a></li>
+						<li><a href="">漂流瓶(29)</a></li>
+						<li>
+							<!-- <ul>
+								<li><a href="">贺卡</a></li>
+								<li>|</li>
+								<li><a href="">明信片</a></li>
+								<li><a href="">日历</a></li>
+								<li>|</li>
+								<li><a href="">记事本</a></li>
+							</ul> -->
+						</li>
+						<li><a href="">日历|记事本</a></li>
+						<li><a href="">附件收藏</a></li>
+						<li><a href="">文件中转站</a></li>
+						<li><a href="">简历</a></li>
+						<li><a href="">阅读空间</a></li>
+					</ul> 
+				</div>
+				
+			</div>
+			<div class="menu-foot"></div>
+		</div>
+
+		<div class="con-t"></div>
+		
+
+		<div class="content-r" ui-view>
+		
+		</div>
+	</div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
